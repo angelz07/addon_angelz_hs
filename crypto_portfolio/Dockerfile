@@ -1,4 +1,4 @@
-FROM homeassistant/amd64-base-python:3.9
+FROM homeassistant/amd64-base-python:latest
 
 # Mettre à jour pip et installer requests
 RUN python -m pip install --upgrade pip
