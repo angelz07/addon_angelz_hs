@@ -1,5 +1,11 @@
 {
-    "name": "AngelZ's Home Assistant Add-ons",
-    "url": "https://github.com/angelz07/addon_angelz_hs",
-    "maintainer": "Angelz"
-  }
+  "name": "AngelZ's Home Assistant Add-ons",
+  "url": "https://github.com/angelz07/addon_angelz_hs",
+  "resources": [
+    {
+      "type": "addon",
+      "repository": "https://github.com/angelz07/addon_angelz_hs",
+      "name": "Crypto Portfolio"
+    }
+  ]
+}
