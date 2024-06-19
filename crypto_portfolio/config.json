@@ -14,5 +14,5 @@
     "update_interval": "str",
     "currencies": ["str"]
   },
-  "image": "homeassistant/amd64-base-python:3.9"
+  "image": "ghcr.io/angelz07/crypto_portfolio:latest"
 }
