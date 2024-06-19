@@ -1,0 +1,32 @@
+add_crypto_transaction:
+  sequence:
+    - service: rest_command.add_transaction
+      data:
+        crypto_name: "Ethereum"
+        quantity: 0.1
+        price_usd: 200
+        transaction_type: "buy"
+        location: "Binance"
+        date: "2023-01-01"
+
+
+delete_crypto_transaction:
+  sequence:
+    - service: rest_command.delete_transaction
+      data:
+        transaction_id: 1
+
+
+update_crypto_transaction:
+  sequence:
+    - service: rest_command.update_transaction
+      data:
+        transaction_id: 1
+        crypto_name: "Ethereum"
+        quantity: 0.2
+        price_usd: 250
+        transaction_type: "buy"
+        location: "Binance"
+        date: "2023-01-01"
+
+
