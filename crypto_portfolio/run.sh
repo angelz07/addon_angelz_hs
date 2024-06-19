@@ -1,3 +1,4 @@
 #!/usr/bin/env bashio
 
-python3 /crypto_portfolio.py
+python3 /app/crypto_portfolio.py
+
